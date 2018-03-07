@@ -1,13 +1,5 @@
 /**
- * @Title: BaseProgressDialog.java
- * @Package com.klch.fc.base
- * @Description: TODO
- * Copyright: Copyright (c) 2012 
- * Company:ezg
- * 
- * @author Comsys-ningh
- * @date 2014-5-4 下午3:44:46
- * @version V1.0
+ *
  */
 
 package com.kaihuang.nansui.common.view;
