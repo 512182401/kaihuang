@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+
+    <com.quchangkeji.tosingpk.common.view.ScrollableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <!--顶部布局-->
+        <!--banan图-->
+        <RelativeLayout
+            android:id="@+id/home_video_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <!--轮播图-->
+            <android.support.v4.view.ViewPager
+                android:id="@+id/homeactivity_sing_vp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="0dp" />
+
+            <!--页面指示器-->
+            <com.quchangkeji.tosingpk.common.view.Indicator
+                android:id="@+id/homeactivity_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/homeactivity_sing_vp"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="8dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+        <!--显示当前banner图结束-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/personal_activity_tl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#F9F9F9"
+                android:paddingBottom="2dp"
+                app:tabIndicatorColor="#FF0000"
+                app:tabSelectedTextColor="#FF0000"
+                app:tabTextColor="@color/text_2a">
+
+            </android.support.design.widget.TabLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/fragment_pk_vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/personal_activity_tl" />
+        </LinearLayout>
+
+    </com.quchangkeji.tosingpk.common.view.ScrollableLayout>
+</RelativeLayout>

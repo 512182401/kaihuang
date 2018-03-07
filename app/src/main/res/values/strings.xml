@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">kaihuang</string>
+    <!--正常提示信息-->
+    <string name="language">语言设置成功，请重新启动。</string>
+    <string name="notice">提示</string>
+    <string name="sure">确定</string>
+    <string name="sure2">确 定</string>
+    <string name="cancel2">取消</string>
+    <string name="no_more_data">沒有更多数据了</string>
+
+
+    <!-- 下拉刷新，上拉加载更多 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">上拉查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="composing_wait">正在合成,请耐心等待..</string>
+    <string name="init_data_wait">正在初始化数据,请耐心等待..</string>
+    <string name="loading">加载中...</string>
+</resources>
